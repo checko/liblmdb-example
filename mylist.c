@@ -34,7 +34,6 @@ int main(int argc, char * argv[])
 	}
 	mdb_cursor_close(cursor);
 
-	mdb_put(txn, dbi, &key, &data, MDB_NOOVERWRITE);
 	mdb_txn_abort(txn);
 	mdb_dbi_close(env,dbi);
 	mdb_env_close(env);
