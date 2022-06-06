@@ -2,9 +2,9 @@
 
 from https://github.com/LMDB/lmdb.
 
-and two little programs : 
+add two little programs : 
 
-mydb.c, for add db record easily
-mylist.c for list all the records in db.
+- mydb.c, for add db record easily
+- mylist.c for list all the records in db.
 
 gcc mydb.c mdb.c midl.c -pthread -o mydb
